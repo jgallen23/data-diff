@@ -1,0 +1,25 @@
+{
+  "name": "data-diff",
+  "description": "a library to get the changes from one object to another",
+  "homepage": "https://github.com/jgallen23/data-diff",
+  "author": "Greg Allen <@jgaui> (http://jga.me)",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgallen23/data-diff.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "clientside": "*"
+  },
+  "main": "./lib/data-diff.js",
+  "scripts": {
+    "test": "mocha",
+    "browser": "clientside -m lib/data-diff.js -n dataDiff > dist/data-diff.js"
+  },
+  "keywords": ["diff", "changes", "data", "json", "ajax"],
+  "bin": {
+  }
+}

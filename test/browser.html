@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8" />
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <script src="../dist/data-diff.js"></script>
+    <script>
+
+      var data1 = [
+        {
+          "id": 1,
+          "name": "James Brown",
+          "status": 1,
+          "counts": {
+            "fingers": 5,
+            "toes": 5
+          }
+        },
+        {
+          "id": 2,
+          "name": "Jane Doe",
+          "status": 1,
+          "counts": {
+            "fingers": 5,
+            "toes": 5
+          }
+        }
+      ];
+      var data2 = [
+        {
+          "id": 1,
+          "name": "James Brown",
+          "status": 1,
+          "counts": {
+            "fingers": 5,
+            "toes": 5
+          }
+        },
+        {
+          "id": 2,
+          "name": "Jane Doe",
+          "status": 2,
+          "counts": {
+            "fingers": 5,
+            "toes": 10 
+          }
+        },
+        {
+          "id": 3,
+          "name": "John Smith",
+          "status": 2,
+          "counts": {
+            "fingers": 5,
+            "toes": 5
+          }
+        }
+      ];
+  
+      var diff = dataDiff(data1, data2, 'id');
+      console.log(diff);
+    </script>
+  </body>
+</html>
