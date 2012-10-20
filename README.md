@@ -1,6 +1,6 @@
 #Data Diff
 
-A library that calculates the changes from one json object to another.  It was designed for figuring out the differences in data returned from the server so only the models that changes would trigger updates to the views.  It will work in both the browser and in node.
+A library that calculates the changes from one json object to another.  It was designed for figuring out the differences in data returned from the server so only the models that change would trigger updates to the views.  It will work in both the browser and in node.
 
 ##Example
 First response from server:
