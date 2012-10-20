@@ -1,3 +1,4 @@
+//built with clientside 0.2.0 https://github.com/jgallen23/clientside
 if (typeof __cs == 'undefined') {
   var __cs = { 
     map: {}, 
@@ -10,11 +11,12 @@ if (typeof __cs == 'undefined') {
       return mod;
     }
   };
+  window.require = __cs.r;
 }
-__cs.map['./obj-diff'] = 'cs529501'
+__cs.map['./obj-diff'] = 'cs220904'
 
 //obj-diff.js
-__cs.libs.cs529501 = (function(require, module, exports) {
+__cs.libs.cs220904 = (function(require, module, exports) {
 var diff = function(obj1, obj2) {
   var out = {};
   var same = true;
