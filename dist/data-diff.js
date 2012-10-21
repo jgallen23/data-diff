@@ -1,6 +1,6 @@
 /*!
   * data-diff.js - A library that calculates the changes from one json object to another
-  * v0.0.1
+  * v0.0.2
   * https://github.com/jgallen23/data-diff
   * copyright JGA 2012
   * MIT License
@@ -21,10 +21,10 @@ if (typeof __cs == 'undefined') {
   };
   window.require = __cs.r;
 }
-__cs.map['./obj-diff'] = 'cs194539'
+__cs.map['./obj-diff'] = 'cs690970'
 
 //obj-diff.js
-__cs.libs.cs194539 = (function(require, module, exports) {
+__cs.libs.cs690970 = (function(require, module, exports) {
 var diff = function(obj1, obj2) {
   var out = {};
   var same = true;

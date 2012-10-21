@@ -3,7 +3,7 @@
   "description": "a library to get the changes from one object to another",
   "homepage": "https://github.com/jgallen23/data-diff",
   "author": "Greg Allen <@jgaui> (http://jga.me)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/jgallen23/data-diff.git"
