@@ -93,5 +93,5 @@ var diff = dataDiff(data1, data2, 'id'); //id is the key to match the two data p
 Node:
 ```npm install data-diff```
 
-Browser: [Development](https://raw.github.com/jgallen23/data-diff/master/dist/data-diff.js)
+Browser: [Development](https://raw.github.com/jgallen23/data-diff/master/dist/data-diff.js) | [Production](https://raw.github.com/jgallen23/data-diff/master/dist/data-diff.min.js)
 
