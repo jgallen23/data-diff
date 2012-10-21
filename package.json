@@ -12,12 +12,13 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "clientside": "*"
+    "clientside": "*",
+    "dist": "*"
   },
   "main": "./lib/data-diff.js",
   "scripts": {
     "test": "mocha",
-    "browser": "clientside -m lib/data-diff.js -n dataDiff > dist/data-diff.js"
+    "browser": "clientside -m lib/data-diff.js -n dataDiff | dist -c lib/copyright.js -f data-diff.js -o dist"
   },
   "keywords": ["diff", "changes", "data", "json", "ajax"],
   "bin": {
